@@ -12,8 +12,8 @@ const boxesContainer = document.querySelector("#boxes");
     const boxes = [];
     for (let i = 0; i < amount; i++) {
       const box = document.createElement("div");
-        box.style.width = '${size}px';
-        box.style.height = '${size}px';
+        box.style.width = "${size}px";
+        box.style.height = "${size}px";
         box.style.backgroundColor = getRandomHexColor();
         boxes.push(box);
         size += 10;
